@@ -129,17 +129,17 @@ public class Shape {
             }
         }
 
-        for (int row = 0; row < reference.length; row++) {
-            for (int col = 0; col < reference[0].length; col++) {
-                if (reference[row][col] != 0) {
-                    g.fillRect(col * 30 + 320, row * 30 + 160, Board.blockSize, Board.blockSize);
-                }
-
-            }
-
-        }
-
-    }
+//        for (int row = 0; row < reference.length; row++) {
+//            for (int col = 0; col < reference[0].length; col++) {
+//                if (reference[row][col] != 0) {
+//                    g.fillRect(col * 30 + 320, row * 30 + 160, Board.blockSize, Board.blockSize);
+//                }
+//
+//            }
+//
+//        }
+//
+//    }
 
     private void checkLine() {
         int size = board.getBoard().length - 1;
