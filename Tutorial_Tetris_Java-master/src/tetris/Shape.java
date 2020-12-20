@@ -139,7 +139,7 @@ public class Shape {
 //
 //        }
 //
-//    }
+    }
 
     private void checkLine() {
         int size = board.getBoard().length - 1;
